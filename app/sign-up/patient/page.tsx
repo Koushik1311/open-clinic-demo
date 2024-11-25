@@ -4,7 +4,7 @@ import AuthButton from "@/components/ui/AuthButton";
 import Image from "next/image";
 import Link from "next/link";
 
-export default function DoctorSignUpPage() {
+export default function PatientSignUpPage() {
   return (
     <div className="md:max-w-sm mx-auto min-h-screen flex flex-col justify-center my-24">
       <div className="shadow-[0px_20px_40px_0px_#00000024] rounded-lg p-8">
@@ -19,7 +19,7 @@ export default function DoctorSignUpPage() {
           />
 
           <h1 className="mt-8 text-2xl font-bold text-orange-600">
-            Are you a licensed doctor <br /> practicing in the US?
+            Create Your Patient Account
           </h1>
           <p className="mt-2 text-sm font-medium text-orange-600 opacity-70">
             Experience the future of healthcare
@@ -73,51 +73,6 @@ export default function DoctorSignUpPage() {
             id="password"
             placeholder="Enter your password"
             autoComplete="new-password"
-            className="h-9 px-3 text-sm rounded-md border border-zinc-300 focus:outline-orange-500"
-          />
-
-          {/* List the state(s) you are licensed to practice */}
-          <label
-            htmlFor="statesLicensed"
-            className="text-xs text-zinc-700 font-medium mt-4"
-          >
-            List the state{"("}s{")"} you are licensed to practice
-          </label>
-          <input
-            type="text"
-            name="statesLicensed"
-            id="statesLicensed"
-            placeholder="Enter state(s)"
-            className="h-9 px-3 text-sm rounded-md border border-zinc-300 focus:outline-orange-500"
-          />
-
-          {/* What is your spaciality area? */}
-          <label
-            htmlFor="specialityArea"
-            className="text-xs text-zinc-700 font-medium mt-4"
-          >
-            What is your spaciality area?
-          </label>
-          <input
-            type="text"
-            name="specialityArea"
-            id="specialityArea"
-            placeholder="i.e. Cardiology, Neurology, etc."
-            className="h-9 px-3 text-sm rounded-md border border-zinc-300 focus:outline-orange-500"
-          />
-
-          {/* NPI Number */}
-          <label
-            htmlFor="npiNumber"
-            className="text-xs text-zinc-700 font-medium mt-4"
-          >
-            NPI Number
-          </label>
-          <input
-            type="text"
-            name="npiNumber"
-            id="npiNumber"
-            placeholder="Enter registered NPI Number"
             className="h-9 px-3 text-sm rounded-md border border-zinc-300 focus:outline-orange-500"
           />
 

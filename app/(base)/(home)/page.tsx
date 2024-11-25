@@ -27,7 +27,7 @@ export default function Home() {
             Doctor Sign up
           </Link>
           <Link
-            href="/patient-sign-up"
+            href="/sign-up/patient"
             className="border border-orange-500 w-full md:w-auto py-2 px-3 text-sm font-medium rounded-lg"
           >
             Patient Sign up
