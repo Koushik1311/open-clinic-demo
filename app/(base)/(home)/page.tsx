@@ -22,13 +22,13 @@ export default function Home() {
         <div className="max-w-sm md:max-w-none mx-16 md:mx-auto flex flex-col md:flex-row items-center justify-center gap-4">
           <Link
             href="/sign-up/doctor"
-            className="border border-orange-500 bg-orange-500 w-full md:w-auto py-2 px-3 text-sm font-medium rounded-lg"
+            className="border border-orange-600 bg-orange-600 w-full md:w-auto py-2 px-3 text-sm font-medium rounded-lg text-white hover:bg-orange-700 transition-all"
           >
             Doctor Sign up
           </Link>
           <Link
             href="/sign-up/patient"
-            className="border border-orange-500 w-full md:w-auto py-2 px-3 text-sm font-medium rounded-lg"
+            className="border border-orange-600 w-full md:w-auto py-2 px-3 text-sm font-medium rounded-lg text-orange-600"
           >
             Patient Sign up
           </Link>

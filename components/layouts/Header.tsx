@@ -29,7 +29,7 @@ export default function Header() {
           <div>
             <Link
               href="/sign-up"
-              className="text-sm font-medium bg-orange-500 px-3 py-2 rounded-lg"
+              className="text-sm font-medium bg-orange-600 px-3 py-2 rounded-lg text-white hover:bg-orange-700 transition-all"
             >
               Sign up
             </Link>
